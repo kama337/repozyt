@@ -2,6 +2,10 @@ def heapsort( aList ):
   # convert aList to heap
   length = len( aList ) - 1
   leastParent = length / 2
+  x = 1
+if x == 1:
+    # indented four spaces
+    print "x is 1."
   for i in range ( leastParent, -1, -1 ):
     moveDown( aList, i, length )
  
