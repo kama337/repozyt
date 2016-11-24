@@ -22,6 +22,10 @@ def moveDown( aList, first, last ):
     # right child exists and is larger than left child
     if ( largest < last ) and ( aList[largest] < aList[largest + 1] ):
       largest += 1
+      x = 1
+if x == 1:
+    # indented four spaces
+    print "x is 1."
  
     # right child is larger than parent
     if aList[largest] > aList[first]:
