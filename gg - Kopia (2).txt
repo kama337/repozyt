@@ -11,6 +11,10 @@ def heapsort( aList ):
     if aList[0] > aList[i]:
       swap( aList, 0, i )
       moveDown( aList, 0, i - 1 )
+      x = 1
+if x == 1:
+    # indented four spaces
+    print "x is 1."
  
  
 def moveDown( aList, first, last ):
