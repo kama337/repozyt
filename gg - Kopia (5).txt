@@ -32,4 +32,7 @@ def moveDown( aList, first, last ):
 def swap( A, x, y ):
   tmp = A[x]
   A[x] = A[y]
-  A[y] = tmp
+  A[y] = tmpx = 1
+if x == 1:
+    # indented four spaces
+    print "x is 1."
